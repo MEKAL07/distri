@@ -1,0 +1,14 @@
+.hoverDivRedondo
+{
+	background-color: #000000;
+	display: inline-block;
+	height: 70px;
+	margin: 4px;
+	transition: border-radius 1s;
+	width: 70px;
+}
+
+.hoverDivRedondo:hover
+{
+	border-radius: 70px;
+}

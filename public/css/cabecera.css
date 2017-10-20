@@ -1,0 +1,163 @@
+
+/*para que se cambie de color cuando es menor a 750px*/
+@media(max-width: 750px){
+	.cabecera{
+		background-color: yellow;
+		width: 100%;*/
+		display: none;
+	}
+	.cabecera > #menu ul li{
+		
+		
+		display: inline-table;
+		position: relative;
+		width: auto;
+		height: 20px;
+		text-align: center;
+		vertical-align: middle;
+		transition: background-color 0.5s;
+		font-size: 0.7rem;
+	}
+	#menu > .d1,#menu > .nav1 {
+		
+		
+		display: inline-table;
+		position: relative;
+		width: auto;
+		height: 20px;
+		text-align: center;
+		vertical-align: middle;
+		transition: background-color blue;
+		font-size: 0.7rem;
+	}
+	
+}
+
+}
+
+body{
+	margin: 0px;
+}
+
+.cabecera{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+}
+
+h1{
+	background-color: black;
+	margin: 0px;
+	color: white;
+	text-align: center;
+
+}
+
+#menu{
+	width: 100%;
+	color: white;
+	background-color: blue;
+	padding: 1px;/*para adentro*/
+	margin: 0px; /*para afuera*/
+	text-align: left;
+}
+/*darle color al menu*/
+#menu ul{
+	background-color: #f08d6b;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+/* para que lo menu esten en linea y centrado */
+#menu ul li{
+	display: inline-table;
+	position: relative;
+	width: 150px; /*tamaño de cada menu*/
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	transition: background-color 1s;
+}
+
+/* pra que cambie de color los menus y submenus*/
+#menu ul li:hover{
+	background-color: #efefef;
+	transition: background-color 1s;
+}
+
+#menu ul li:hover >ul{
+	/*/display: inline-block;/*/
+	display: inline-block;
+}
+
+#menu ul li a{
+	display: table-cell; /*para que todo los campos sean para púlsar*/
+	color: black; /*para el color de las letras*/
+	height: 40px;
+	padding: 10px;
+	margin: 10px; /* 150 +10 +10 = width= 170px */
+	text-decoration: none; /*se quita el subrayado*/
+	vertical-align: middle; /*centreado de texto*/
+	font-family: sans-serif;
+	border: 1px solid;
+	/*list-style: none;*/
+}
+
+/*esconder los submenus respectivamente*/
+#menu ul li >ul{
+	display: none; /*desaparecer*/
+	left: 0px;
+	position: absolute; /*para que no se mueva el menu*/
+	top: 100%; /*para que el menú tope al 100% de #menu nav*/
+	min-width: 140px;
+}
+
+/*pppppppppppp sub menus de sub-menu*/
+
+#menu ul li ul li ul{
+	left: 150px;
+	background-color: red;
+	top: 0px;
+}
+
+/*agrregar las flechas */
+#menu ul li .fle{
+	font-size: 10px; /**muestra lña flecha*/
+	/*padding-left: 6px;*/	
+	/*display: none; *//*desaparece la flecha*/
+}
+
+/* caundo pasamos el cursor por encima de los menús aparece la flecha*/
+/*#menu ul li a :not(:last-child) .fle{
+	display: inline;
+}*/
+
+
+#menu > .nav1{
+	margin: 1px;
+    padding: 1px;
+    border: 1px solid blue;
+    border-radius: 2pt;
+    background: #f08d6b;   
+    width: 60%;/*flex: 80%; */
+    order: 1;     
+    left: 0px;
+    display: inline-block;
+   	position: relative;
+}
+
+#menu > .d1{
+   margin: 1px;
+    padding: 1px;
+    border: 1px solid #f08d6b;
+    border-radius: 2pt;
+    background: #f08d6b;   
+    width: 38%;/*flex: 80%; */
+    order: 2;     
+    left: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+} 
+

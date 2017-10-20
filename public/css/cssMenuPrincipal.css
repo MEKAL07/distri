@@ -1,0 +1,53 @@
+#navMenuPrincipal
+{
+	color: white;
+}
+
+#navMenuPrincipal ul
+{
+	background-color: #4285F4;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navMenuPrincipal ul li
+{
+	display: inline-table;
+	height: 40px;
+	position: relative;
+	text-align: center;
+	transition: background-color 0.7s;
+	vertical-align: middle;
+	width: 120px;
+}
+
+#navMenuPrincipal ul li:hover
+{
+	background-color: red;
+	transition: background-color 0s;
+}
+
+#navMenuPrincipal ul li:hover > ul
+{
+	display: inline-block;
+}
+
+#navMenuPrincipal ul li a
+{
+	color: #FFF0000;
+	display: table-cell;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#navMenuPrincipal ul li > ul
+{
+	display: none;
+	left: 0px;
+	position: absolute;
+	top: 100%;
+}

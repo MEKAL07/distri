@@ -1,0 +1,28 @@
+@media all and (max-width: 750px){
+	.pie{
+		background-color: #fbceb1;
+		min-height: 70px;
+    	max-height: 70px;
+	}
+}
+
+.pie {
+   	background-color: #edc9af;
+   	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 50px;
+	bottom: 0px;
+	display: inline-block;
+	margin: 1px;
+	text-align: center;
+
+}
+
+.redes{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	margin: auto;
+}
+

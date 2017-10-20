@@ -1,0 +1,28 @@
+h1
+{
+	color: #ffffff;
+	margin: 0px;
+}
+
+body
+{
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+}
+
+header
+{
+	background-color: #000000;
+}
+
+#divCuerpoInterno
+{
+	display: inline-block;
+	width: 1000px;
+}
+
+#sectionCuerpoGeneral
+{
+	text-align: center;
+}

@@ -1,0 +1,191 @@
+h3{
+    text-align: center;
+}
+#sectionCP{
+    background-color: #ffffff;
+	min-height: 800px; /*min nima altura que se asgina al section*/
+    margin: 0px;
+    padding: 0px;
+    display:  flex;
+    flex-flow: row;
+    padding-top: 100px;
+
+    /*padding-bottom:100px; */
+}
+
+#sectionCP > .div2{
+	margin: 1px;
+    padding: 1px;
+    border: 1px solid #ffffff;
+    border-radius: 2pt;
+    background: #ffffff;   
+    width: 60%;/*flex: 80%; */
+    order: 1;     
+    left: 0px;
+    display: inline-block;
+}
+
+#sectionCP > .div3{
+	margin: 1px;
+    padding: 1px;
+    border: 1px solid #ffffff;
+    border-radius: 2pt;
+    background: #ffffff;
+    width: 40%;
+    height: 612px;  
+    order: 2;
+    position: fixed;
+    right: 0px;
+    
+    /*position: fixed;
+    display: inline-block;
+    width: 30%;
+    background-color: #12AD57;
+    right: 0px;
+    display: inline-block;
+    height: 562px;*/
+    
+    
+}
+
+/*PPPPPPPPPPPP para que se mantenga div mayor y la pequeña se mande para abajo*/
+@media all and (max-width: 750px){
+	#main {
+    	flex-flow: column;
+    }
+    #sectionCP{      
+        width: 100%; 
+        height: 100%;
+
+        
+    }
+	#sectionCP >.div2{		
+		width: 100%; 
+        height: 100%;
+        
+	}
+
+	.asi{
+		/*max-height: 300px;
+		min-height: 50px ; */
+        display: none;
+		
+	}
+    
+
+}
+
+/*examemn*/
+ul{
+    list-style:none;
+}
+
+ul label{
+    width:100px;
+    float:left;
+}
+
+#frmCadastre{
+   
+    background-color: #ffffff;
+    min-height: 200px; /*min nima altura que se asgina al section*/
+    margin: 0px;
+    padding: 0px;
+    display:  flex;
+    flex-flow: row;
+    padding-top: 0px;
+    width: 500px;
+}
+
+.div5{
+    text-align: center;
+    min-height: 400px; /*min nima altura que se asgina al section*/
+    margin: 0px 500px;
+    padding: 100px;
+    display:  flex;
+    flex-flow: row;
+    padding-top: 0px;
+    width: 500px;
+    height: 0px;
+}
+
+
+
+
+#tblList{
+    width:100%;
+    border:solid 1px;
+    text-align:left;
+    border-collapse:collapse; 
+}
+
+#tblList tbody tr{
+    border:solid 1px;
+    height:30px;
+}
+
+#tblList thead{
+    background: #858585;
+    width: 700px;
+}
+
+#btnSave{
+    left: 200px;
+    background-color: #315deb;
+    width: 150px;
+    height: 30px;
+}
+
+#li1{
+    text-align: right;
+}
+
+#image{
+    width: 80px;
+    height: 80px;
+    text-align: left;
+
+}
+
+    
+    div#centro{
+
+            font-family:arial;
+            font-size: 7rem;
+            margin:10px auto;
+            padding: 0 1rem;
+    }
+    p#letra{
+            font-size: 3rem;
+            font-family:arial;
+            vertical-align: center;
+            margin: 5px 50px;
+    }
+
+div#centrot{
+    margin: 0 200px;
+    color: black;
+
+}
+a#colorletra{
+    color: black;
+}
+
+/* formulario contactanos*/
+#colorbo{
+    color: #ffffff;
+    background-color:#33B5FF;
+    font-family:Arial;
+    text-align: center;
+    background-position: 20%;
+    height: 30px;
+    width:120px  ;
+ 
+    
+
+}
+
+#butoM{
+
+    width: 650pX;
+}

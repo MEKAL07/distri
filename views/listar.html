@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Yanapasoft</title>
+	<link rel="stylesheet" type="text/css" href="../public/css/cabecera.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/cuerpo.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/pie.css">
+	<script type="text/javascript" src="../public/js/storages.js"></script>
+	<script type="text/javascript" src="../public/js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+	<header class="cabecera">
+		
+		<nav id="menu">
+			<ul class="nav1">
+				<li><img id="image" src="../public/img/ima.png"  />
+				</li><li><a href="inicio.html">Inicio</a>
+				</li><li><a href="registrar.html">Registrar persona <span class="fle"></span> </a>
+					
+				</li><li><a href="listar.html">Listar persona <span class="fle"></span> </a>
+					
+				</li><li><a href="contactanos.html">Contáctanos <span class="fle"></span> </a></li>
+			</ul>
+
+			<div class="d1">
+					<img id="image" src="../public/img/user.png">				
+					<a style="color: black"> correoEmail@hotmail.com  </a>
+					<a href="inicio.html " >Cerrar Secion</a>
+			</div>
+		</nav>
+		
+	</header>	
+	<section id="sectionCP">
+		<div class="div2">
+			<table id="tblList">
+
+			</table>
+		</div>
+
+		<div class="div3">
+			<form id="frmCadastre">
+				<ul>
+					<li>
+						<label for="txt_cd">Codigo : </label>
+						<input type="text" id="txt_cd" readonly="readonly" style="background-color: #8e8e8e" /><br><br>
+					</li>
+					<li>
+						<label for="txt_n">Nombre : </label>
+						<input type="text" id="txt_n"/><br><br>
+					</li>
+					<li>
+						<label for="txt_a">Apellido :</label>
+						<input type="text" id="txt_a"/><br><br>
+					</li>
+					<li>
+						<label for="txt_Email">Correo : </label>
+						<input type="text" id="txt_Email"/><br><br>
+					</li>
+					<li id="li1">
+						<input type="submit" value="Guardar cambios" id="btnSave" />
+					</li>
+				</ul>
+			</form>	
+		</div>
+		
+		
+	</section>		
+	
+	<footer class="pie">
+		
+	</footer>
+</body>
+</html>
