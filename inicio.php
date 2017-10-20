@@ -7,7 +7,7 @@ $user = UserService::getCurrentUser();
 // [END user]
 // [START ifuser]
 if ($user) {
-  echo 'hola elsa, ' . htmlspecialchars($user->getNickname());
+  echo 'hola elsassss, ' . htmlspecialchars($user->getNickname());
 }
 // [END ifuser]
 // [START elseuser]
